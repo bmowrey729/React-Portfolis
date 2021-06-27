@@ -1,11 +1,11 @@
 
-import './App.css';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-       <header class="header">
-        <img src=".../public/images/mowrey.png" alt="Bruce Mowrey" class="mowrey" />
+       <header className="header">
+        <img src="/images/mowrey.png" alt="Bruce Mowrey" className="mowrey" />
         <h1>Bruce Mowrey</h1>
         
         <nav>
@@ -27,7 +27,7 @@ function App() {
     </header>
     <div className="image">
 
-        <img src="../public/images/FullStack.PNG" alt="Full Stack graphic" class="image"/>
+        <img src="/images/FullStack.PNG" alt="Full Stack graphic" class="image"/>
 
     </div>
 
@@ -35,7 +35,7 @@ function App() {
      className="content"
         <div id="Employment-History" className="Employment-History">
             <h2>Employment History</h2>
-            <img src="./assets/images/umcems.PNG" alt="UMC EMS Logo" class="float-left" />
+            <img src="/images/umcems.PNG" alt="UMC EMS Logo" className="float-left" />
 
             
             <ul>
@@ -63,7 +63,7 @@ function App() {
         </div>
         <div id="IT-accomplishments" className="IT-accomplishments">
             <h2>IT accomplishments</h2>
-            <img src="./assets/images/IMG-0177.JPG" alt="Microsoft Access Certification" class="float-left" />
+            <img src="/images/IMG-0177.JPG" alt="Microsoft Access Certification" class="float-left" />
            
             <ul>
 
@@ -89,69 +89,68 @@ function App() {
                     vender.
                 </li>
             </ul>
-        </div>
-        
+        </div>       
         
         <div className ="container-fluid Full-Stack-Accomplishments" id="Full-Stack-Accomplishments">
             <h2>Full-Stack Accomplishments</h2>
-            <div class="row">
-                <div class="col-3 thumb">
-                    <h4 class="float-center">Movie Review</h4>
-                    <img src="./assets/images/movieRev.PNG" alt="Movie screen shot" class="float-left fs-img" height="100px" width="150px" />
+            <div className="row">
+                <div className="col-3 thumb">
+                    <h4 className="float-center">Movie Review</h4>
+                    <img src="/images/movieRev.PNG" alt="Movie screen shot" className="float-left fs-img" height="100px" width="150px" />
                     <br/>
-                    <ul class="float-left">
+                    <ul className="float-left">
         
                         <li>
-                            <a href="https://davidboerm.github.io/project-1/" target="_blank">https://davidboerm.github.io/project-1/</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://davidboerm.github.io/project-1/">https://davidboerm.github.io/project-1/</a>
                         </li>
                         <br/>
                         <li>
-                            <a href="https://github.com/davidboerm/project-1" target="_blank">https://github.com/davidboerm/project-1</a>
+                            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/davidboerm/project-1" >https://github.com/davidboerm/project-1</a>
                         </li>
         
                     </ul>
                 </div>
                 <div className="col-3 thumb">
-                    <h4 class="float-center">Work Day Scheduler</h4>
-                    <img src="./assets/images/workday.PNG" alt="Day Sched Calendar" class="float-left fs-img" height="100px" width="150px" />
-                    <ul class="float-left">
+                    <h4 className="float-center">Work Day Scheduler</h4>
+                    <img src="/images/workday.PNG" alt="Day Sched Calendar" class="float-left fs-img" height="100px" width="150px" />
+                    <ul className="float-left">
         
                         <li>
-                            <a href="https://bmowrey729.github.io/Work-Day-Scheduler/" target="_blank">https://bmowrey729.github.io/Work-Day-Scheduler/</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bmowrey729.github.io/Work-Day-Scheduler/">https://bmowrey729.github.io/Work-Day-Scheduler/</a>
                         </li>
                         <br/>
                         <li>
-                            <a href="https://github.com/bmowrey729/Work-Day-Scheduler" target="_blank">https://github.com/bmowrey729/Work-Day-Scheduler</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Work-Day-Scheduler">https://github.com/bmowrey729/Work-Day-Scheduler</a>
                         </li>
         
                     </ul>
                 </div>
                 <div className="col-3 thumb">
                     <h4 className="float-center">Multiple Choice Quiz</h4>
-                    <img src="./assets/images/mult.PNG" alt="Workgroup" className="float-left fs-img" height="100px" width="150px" />
+                    <img src="/images/mult.PNG" alt="Workgroup" className="float-left fs-img" height="100px" width="150px" />
                     <ul className="float-left">
         
                         <li>
-                            <a href="https://github.com/bmowrey729/Multiple-Choice-Quiz" target="_blank">https://github.com/bmowrey729/Multiple-Choice-Quiz</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Multiple-Choice-Quiz">https://github.com/bmowrey729/Multiple-Choice-Quiz</a>
                         </li>
                         <br/>
                         <li>
-                            <a href="https://bmowrey729.github.io/Multiple-Choice-Quiz/" target="_blank">https://bmowrey729.github.io/Multiple-Choice-Quiz/</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bmowrey729.github.io/Multiple-Choice-Quiz/">https://bmowrey729.github.io/Multiple-Choice-Quiz/</a>
                         </li>
         
                     </ul>
                 </div>
                 <div className="col-3 thumb">
                     <h4 className="float-center">Password Generator</h4>
-                    <img src="./assets/images/screenshot.png" alt="Workgroup" class="float-left fs-img" height="100px" width="150px" />
+                    <img src="/images/screenshot.png" alt="Workgroup" className="float-left fs-img" height="100px" width="150px" />
                     <ul class="float-left">
         
                         <li>
-                            <a href="https://github.com/bmowrey729/Password-Generator" target="_blank">https://github.com/bmowrey729/Password-Generator</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Password-Generator">https://github.com/bmowrey729/Password-Generator</a>
                         </li>
                         <br/>
                         <li>
-                            <a href="https://bmowrey729.github.io/Password-Generator/" target="_blank">https://bmowrey729.github.io/Password-Generator/</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bmowrey729.github.io/Password-Generator/">https://bmowrey729.github.io/Password-Generator/</a>
                         </li>
         
                     </ul>
@@ -163,12 +162,12 @@ function App() {
                 <div className="row">
                     
                     <div className="col-3 thumb">
-                        <h4 class="float-center">Readme Generator</h4>
-                        <img src="./assets/images/readgen.PNG" alt="Day Sched Calendar" className="float-left fs-img" height="100px" width="150px" />
-                        <ul class="float-left">
+                        <h4 className="float-center">Readme Generator</h4>
+                        <img src="/images/readgen.PNG" alt="Day Sched Calendar" className="float-left fs-img" height="100px" width="150px" />
+                        <ul className="float-left">
             
                             <li>
-                                <a href="https://github.com/bmowrey729/Readme-Generator" target="_blank">https://github.com/bmowrey729/Readme-Generator</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Readme-Generator">https://github.com/bmowrey729/Readme-Generator</a>
                             </li>
                             <br/>
                             <li>
@@ -179,33 +178,33 @@ function App() {
                     </div>
                     
                     <div className="col-3 thumb">
-                        <h4 class="float-center">E_Commerce_Backend</h4>
-                        <img src="./assets/images/insomniaDash.PNG" alt="Movie screen shot" className="float-left fs-img" height="100px" width="150px" />
+                        <h4 className="float-center">E_Commerce_Backend</h4>
+                        <img src="/images/insomniaDash.PNG" alt="Movie screen shot" className="float-left fs-img" height="100px" width="150px" />
                         <br/>
                         <ul className="float-left">
             
                             <li>
-                                <a href="https://github.com/bmowrey729/E_Commerce_BackEnd/" target="_blank">https://github.com/bmowrey729/E_Commerce_BackEnd/</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/E_Commerce_BackEnd/">https://github.com/bmowrey729/E_Commerce_BackEnd/</a>
                             </li>
                             <br/>
                             <li>
-                                <a>Link to video in Readme File on github</a>
+                                <p>Link to video in Readme File on github</p>
                             </li>
             
                         </ul>
                     </div>
-                    <div class="col-3 thumb">
-                        <h4 class="float-center">Employee Tracker</h4>
-                        <img src="./assets/images/empTrack.PNG" alt="Employee Tracker screen shot" class="float-left fs-img" height="100px" width="150px" />
+                    <div className="col-3 thumb">
+                        <h4 className="float-center">Employee Tracker</h4>
+                        <img src="/images/empTrack.PNG" alt="Employee Tracker screen shot" className="float-left fs-img" height="100px" width="150px" />
                         <br/>
                         <ul className="float-left">
             
                             <li>
-                                <a href="https://github.com/bmowrey729/Employee-Tracker/" target="_blank">https://github.com/bmowrey729/Employee-Tracker/</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Employee-Tracker/">https://github.com/bmowrey729/Employee-Tracker/</a>
                             </li>
                             <br/>
                             <li>
-                                <a>Link to video in Readme File on github</a>
+                                Link to video in Readme File on github
                             </li>
             
                         </ul>
@@ -218,16 +217,16 @@ function App() {
 
     
     <footer>
-        <div id="footer" class="footer">
+        <div id="footer" className="footer">
             <h3>Contact Iinformation</h3>
             <ul>
                 <li><strong>Phone:</strong> 806-436-5632</li>
                 <li><strong>Email:</strong> <a href="mailto:mowrey729@gmail.com">mowrey729@gmail.com</a></li>
-                <li><strong>Github Profile:</strong> <a href="https://github.com/bmowrey729" target="_blank">Bruce
+                <li><strong>Github Profile:</strong> <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729">Bruce
                     Mowrey</a></li>
-                <li><strong>linkedin:</strong> <a href="https://www.linkedin.com/in/bruce-mowrey-1a636651/" target="_blank">Bruce
+                <li><strong>linkedin:</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-mowrey-1a636651/">Bruce
                         Mowrey</a></li>
-                <li><strong>Resume:</strong> <a href="./assets/docs/Bmowrey.pdf">Bmowrey.pdf</a></li>
+                <li><strong>Resume:</strong> <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1-UuvFQvQNrGyG_cf0C_QlCe_1Xx7d0o6dDPs1WOR24k/edit?usp=sharing">Bmowrey.pdf</a></li>             
 
 
             </ul>
