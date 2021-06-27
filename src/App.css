@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;    
+}
+.header {    
+  display: flex;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #edc7b7;
+  color: #ac3b61;
+  height: 250px; 
+  flex-wrap: nowrap;
+  
+   
+}
+/* Header Photo */
+.mowrey {
+  max-height: 200px;
+      float: left;
+      margin-right: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ac3b61;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.image {
+  
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  
   }
+
+
+/* alignment of <main> paragraphs*/
+.float-left {
+  float: left;
+  margin-right: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {    
+  display: inline-block;
+  margin-left: 20px;
+  width: 100%;
+}
+/* <main> content */
+.Employment-History,
+.IT-accomplishments,
+.Full-Stack-Accomplishments {
+ 
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 400px;
+  width: auto;
+  font-family: Arial, sans-serif;
+  background-color: #edc7b7;
+  color: #ac3b61;
+}
+
+.Employment-History img,
+.IT-accomplishments img,
+.Full-Stack-Accomplishments img {
+  max-height: 200px;
+}
+
+.Employment-History h2,
+.IT-accomplishments h2,
+.Full-Stack-Accomplishments h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  
+  text-align: center;
+
+}
+
+.Employment-History ul{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.IT-accomplishments ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Full-Stack-Accomplishments ul{
+  
+ 
+}  
+
+.fs-img {
+  padding-bottom: 10px;
+}
+#row1 {
+  background-color: wheat;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  padding: 30px;    
+  font-family: Arial, sans-serif;    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer h3 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+footer ul {
+  padding-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* adjustments for screen size */   
+@media screen and (max-width: 992px) {
+.Employment-History,
+.IT-accomplishments,
+.Full-Stack-Accomplishments {
+  height: 400px;        
+}
+} 
+@media screen and (max-width: 697px) {
+  .Employment-History,
+  .IT-accomplishments,
+  .Full-Stack-Accomplishments {
+      height: 500px;        
   }
-  to {
-    transform: rotate(360deg);
+} 
+@media screen and (max-width: 688px) {
+  .Employment-History h2,
+  .IT-accomplishments h2,
+  .Full-Stack-Accomplishments h2 {            
+      font-size: 20px;
+  }                
+}
+
+@media screen and (max-width: 598px){
+  .Full-Stack-Accomplishments h2 {
+      font-size: 15px;
+  }
+  .Employment-History,
+  .IT-accomplishments,
+  .Full-Stack-Accomplishments {
+      height: 550px;
   }
 }
