@@ -27,7 +27,7 @@ function App() {
     </header>
     <div className="image">
 
-        <img src="/images/FullStack.PNG" alt="Full Stack graphic" class="image"/>
+        <img src="/images/FullStack.PNG" alt="Full Stack graphic" className="image"/>
 
     </div>
 
@@ -63,7 +63,7 @@ function App() {
         </div>
         <div id="IT-accomplishments" className="IT-accomplishments">
             <h2>IT accomplishments</h2>
-            <img src="/images/IMG-0177.JPG" alt="Microsoft Access Certification" class="float-left" />
+            <img src="/images/IMG-0177.JPG" alt="Microsoft Access Certification" className="float-left" />
            
             <ul>
 
@@ -100,7 +100,7 @@ function App() {
                     <br/>
                     <ul className="float-left">
         
-                        <li>
+                        <li className="float-left">
                             <a target="_blank" rel="noopener noreferrer" href="https://davidboerm.github.io/project-1/">https://davidboerm.github.io/project-1/</a>
                         </li>
                         <br/>
@@ -112,7 +112,7 @@ function App() {
                 </div>
                 <div className="col-3 thumb">
                     <h4 className="float-center">Work Day Scheduler</h4>
-                    <img src="/images/workday.PNG" alt="Day Sched Calendar" class="float-left fs-img" height="100px" width="150px" />
+                    <img src="/images/workday.PNG" alt="Day Sched Calendar" className="float-left fs-img" height="100px" width="150px" />
                     <ul className="float-left">
         
                         <li>
@@ -143,7 +143,7 @@ function App() {
                 <div className="col-3 thumb">
                     <h4 className="float-center">Password Generator</h4>
                     <img src="/images/screenshot.png" alt="Workgroup" className="float-left fs-img" height="100px" width="150px" />
-                    <ul class="float-left">
+                    <ul className="float-left">
         
                         <li>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Password-Generator">https://github.com/bmowrey729/Password-Generator</a>
@@ -205,6 +205,22 @@ function App() {
                             <br/>
                             <li>
                                 Link to video in Readme File on github
+                            </li>
+            
+                        </ul>
+                    </div>
+                    <div className="col-3 thumb">
+                        <h4 className="float-center">Weather App</h4>
+                        <img src="/images/WeatherDash.png" alt="Employee Tracker screen shot" className="float-left fs-img" height="100px" width="150px" />
+                        <br/>
+                        <ul className="float-left">
+            
+                            <li>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bmowrey729/Search-Weather-App">https://github.com/bmowrey729/Search-Weather-App</a>
+                            </li>
+                            <br/>
+                            <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bmowrey729.github.io/Search-Weather-App/.">https://bmowrey729.github.io/Search-Weather-App/.</a>
                             </li>
             
                         </ul>
